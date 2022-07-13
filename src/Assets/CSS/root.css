@@ -1,0 +1,31 @@
+:root {
+    --dark: rgb(22, 18, 18);
+    --shadow__color : rgb(85 0 170 / 10%);
+    --white: #ffffff;
+    --darkwhite: #dddddd;
+    --green: #6ba229;
+    --greendark: #497415;
+    /* ------------- */
+    --topnavHeight: 40px !important;
+    --mainnavHeight: 70px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--dark);
+}
+a{
+    color: var(--dark);
+}
+body {
+    font-family: 'Baloo Paaji 2', cursive;
+    overflow-x: hidden;
+    background-color: rgb(244, 253, 237);
+}
+@media only screen and (max-width: 768px) {
+    :root{
+        --topnavHeight: 30px;
+
+    }
+}

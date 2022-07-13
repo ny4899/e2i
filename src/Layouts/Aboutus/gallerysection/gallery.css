@@ -1,0 +1,51 @@
+.img1 { grid-area: image1; }
+.img2 { grid-area: image2;}
+.img3 { grid-area: image3; }
+.img4 { grid-area: image4;  }
+.img5 { grid-area: image5; }
+.img6 { grid-area: image6; }
+.img7 { grid-area: image7; }
+.img8 { grid-area: image8; }
+.img9 { grid-area: image9; }
+.img10 { grid-area: image10; }
+
+.grid__container{
+  display: grid;
+  grid-template-areas:
+    'image1 image1 image1 image2  image2  image2 image3 image3'
+    'image1 image1 image1 image4 image4 image4 image5 image5'
+    'image6 image6 image7 image7 image8 image8 image8 image8'
+    'image9 image9 image10  image10 image8 image8 image8 image8';
+  gap: 8px;
+}
+.grid__container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--darkwhite) ;
+}
+.gallery__img__height{
+  height: calc(100vw/6);
+}
+@media only screen and (max-width: 768px) {
+  .grid__container{
+    grid-template-areas:
+      'image1 image1 image1 image2  image2  image2'
+      'image1 image1 image1 image4 image4 image4'
+      'image3 image3 image6 image6 image7 image7'
+      'image5 image5 image9 image9 image10 image10'
+      'image8 image8 image8 image8 image8 image8'
+      'image8 image8 image8 image8 image8 image8';
+  }
+  .gallery__img__height768{
+    height: calc(100vw/4);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .gallery__img__height{
+    height: calc(100vw/4);
+  }
+}

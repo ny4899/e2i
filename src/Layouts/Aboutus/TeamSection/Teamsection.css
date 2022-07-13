@@ -1,0 +1,17 @@
+.team__heading__bg{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 250px;
+    height: 20px;
+    background-color: var(--darkwhite);
+    z-index: -1;
+  }
+  @media only screen and (max-width: 576px) {
+    .team__heading__bg{
+      top: 40%;
+      width: 170px;
+      height: 15px;
+    }
+  }
+  
