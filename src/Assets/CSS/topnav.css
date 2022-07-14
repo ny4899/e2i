@@ -157,12 +157,13 @@
         position: absolute;
         top: 100%;
         width: 100%;
-        right: -120%;
+        right: 0%;
         transition: right 0.3s;
+        
     }
 
     .links__container__show {
-        right: 0%;
+        display: none;
     }
 
     .links__container ul {

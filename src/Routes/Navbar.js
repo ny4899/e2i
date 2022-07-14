@@ -35,7 +35,7 @@ function Navbar() {
             </div>
             <div
               className={`links__container  ${
-                humShowHide ? "links__container__show" : ""
+                humShowHide ? "" : "links__container__show"
               }`}
             >
               <ul>
