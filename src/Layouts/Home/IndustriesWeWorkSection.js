@@ -9,7 +9,7 @@ import FactoriesImg from "../../Assets/Images/industries/factory.png"
 const IndustriesWeWorkSection = () => {
   return (
     <div className="industries__container py-4 py-sm-5 skew__nagitive">
-    <div className="container-xxl px-2 px-sm-4 skew__positive py-4">
+    <div className="container-xxl px-3 px-sm-4 skew__positive py-4">
       <div className="row g-3 g-sm-4">
         <div className="col-12">
           <div className="d-flex align-itmes-center justify-content-center">

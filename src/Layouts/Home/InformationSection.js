@@ -3,7 +3,7 @@ import React from 'react'
 const InformationSection = () => {
   return (
     <div className="information__container">
-    <div className="container-xxl px-2 px-sm-4">
+    <div className="container-xxl px-3 px-sm-4">
       <div className="row">
         <div className="col-12 col-sm-4">
           <div className="d-flex flex-column align-items-center justify-content-center p-4">

@@ -20,7 +20,7 @@ a{
 }
 body {
     font-family: 'Baloo Paaji 2', cursive;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background-color: rgb(244, 253, 237);
 }
 @media only screen and (max-width: 768px) {

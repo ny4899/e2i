@@ -1,10 +1,19 @@
 import React from 'react'
+import HeroContainer from '../Layouts/Services/HeroContainer/HeroContainer'
+import ServicesHeadingSection from '../Layouts/Services/ServicesHeadingSection/ServicesHeadingSection'
+import ServicesSection from '../Layouts/Services/ServicesSection/ServicesSection'
+import InformationSection from '../Layouts/Home/InformationSection'
+import MapSection from '../Layouts/Home/MapSection'
 
 const Services = () => {
   return (
-    <div>
-      <h1>Services</h1>
-    </div>
+    <>
+    <HeroContainer />
+    <ServicesHeadingSection />
+    <ServicesSection />
+    <InformationSection />
+    {/* <MapSection /> */}
+    </>
   )
 }
 

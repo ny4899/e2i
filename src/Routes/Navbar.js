@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <>
       <div className="nav__wrapper">
-        <div className="container-xxl px-2 px-sm-4">
+        <div className="container-xxl px-3 px-sm-4">
           <div className="topnav__container">
             <div>
               <i className="bi bi-telephone-fill"></i>

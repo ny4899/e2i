@@ -1,0 +1,44 @@
+.services__card__wrapper {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.services__card__container {
+  text-decoration: none;
+  position: relative;
+}
+.services__card__container::before {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 0%;
+  height: 3px;
+  transition: all 0.3s;
+}
+.services__card__container:hover::before {
+  width: 100%;
+  background-color: var(--green);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.services__card__container:hover .services__card__heading {
+  color: var(--green);
+}
+.services__card__heading {
+  transition: all 0.3s;
+  position: relative;
+}
+.services__card__heading::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 40%;
+  height: 3px;
+  border-radius: 2px;
+  background-color: var(--green);
+}

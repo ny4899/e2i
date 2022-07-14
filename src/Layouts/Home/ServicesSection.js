@@ -6,7 +6,7 @@ import cpcbImg from "../../Assets/Images/home/real-time-data1.jpg"
 const ServicesSection = () => {
   return (
     <div className="services__container py-5 mt-md-5">
-    <div className="container-xxl px-2 px-sm-4">
+    <div className="container-xxl px-3 px-sm-4">
       <div className="row g-3 g-sm-4">
         <div className="col-12">
           <div className="d-flex align-itmes-center justify-content-center">

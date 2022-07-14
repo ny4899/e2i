@@ -6,7 +6,7 @@ import quoteRight from "../../Assets/Images/home/Group 1.svg"
 const TestimonialSection = () => {
   return (
     <div className="services__container py-5">
-    <div className="container-xxl px-2 px-sm-4">
+    <div className="container-xxl px-3 px-sm-4">
       <div className="row g-3 g-sm-4">
         <div className="col-12 mb-3">
           <div className="d-flex align-itmes-center justify-content-center">

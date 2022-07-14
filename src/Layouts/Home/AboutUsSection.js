@@ -4,7 +4,7 @@ import aboutImage from '../../Assets/Images/home/home-about.jpg'
 const AboutUsSection = () => {
   return (
 <div className="aboutus__container my-md-5 py-4">
-    <div className="container-xxl px-2 px-sm-4">
+    <div className="container-xxl px-3 px-sm-4">
       <div className="row">
         <div className="col-12 col-md-6">
           <div>

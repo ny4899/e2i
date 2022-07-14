@@ -1,0 +1,24 @@
+.services__hero__btn {
+    text-decoration: none;
+    padding: 3px 15px;
+    transition: all 0.3s;
+    font-weight: bolder;
+  }
+  .services__hero__contact__btn {
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    color: var(--white);
+  }
+  .services__hero__contact__btn:hover {
+    background-color: transparent;
+    color: var(--green);
+  }
+  .services__hero__product__btn {
+    border: 2px solid var(--green);
+    color: var(--green);
+    margin-left: 10px;
+  }
+  .services__hero__product__btn:hover {
+    background-color: var(--green);
+    color: var(--white);
+  }

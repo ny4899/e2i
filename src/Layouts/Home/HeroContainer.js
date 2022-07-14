@@ -8,7 +8,7 @@ const HeroContainer = () => {
   return (
     <>
       <div className="hero__container" style={{backgroundImage : `url(${heroBg})`}}>
-        <div className="container-xxl px-2 px-sm-4">
+        <div className="container-xxl px-3 px-sm-4">
           <div className="">
             <div
               className="hero__content__container d-flex align-items-center flex-column mx-auto p-4"
