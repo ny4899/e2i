@@ -7,7 +7,7 @@ import OurMissionSection from "../Layouts/Home/OurMissionSection";
 import BrandsSection from "../Layouts/Home/BrandsSection";
 import TestimonialSection from "../Layouts/Home/TestimonialSection";
 import InformationSection from "../Layouts/Home/InformationSection";
-import MapSection from "../Layouts/Home/MapSection";
+// import MapSection from "../Layouts/Home/MapSection";
 const Home = () => {
   return (
     <>

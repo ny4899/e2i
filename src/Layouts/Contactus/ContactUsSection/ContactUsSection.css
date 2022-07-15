@@ -1,0 +1,27 @@
+.sumbit__btn{
+    text-decoration: none;
+    padding: 6px 35px;
+    transition: all 0.3s;
+    font-weight: bolder;
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    color: var(--white);
+  
+  }
+  .sumbit__btn:hover {
+    background-color: transparent;
+    color: var(--green);
+  }
+  .heading247{
+    position: relative;
+    z-index: 1;
+  }
+  .heading247::before{
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    height: 8px ;
+    background-color: rgba(115, 255, 0, 0.4);
+  }

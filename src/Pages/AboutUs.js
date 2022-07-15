@@ -8,7 +8,7 @@ import KnowOurMerils from '../Layouts/Aboutus/knowOurMerils/KnowOurMerils'
 import TeamSection from '../Layouts/Aboutus/TeamSection/TeamSection'
 
 import InformationSection from "../Layouts/Home/InformationSection"
-import MapSection from "../Layouts/Home/MapSection"
+// import MapSection from "../Layouts/Home/MapSection"
 
 const AboutUs = () => {
   return (
