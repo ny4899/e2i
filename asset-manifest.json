@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/e2i/static/css/main.7ac2d6bb.css",
-    "main.js": "/e2i/static/js/main.2f4798b3.js",
+    "main.css": "/e2i/static/css/main.6dcc0906.css",
+    "main.js": "/e2i/static/js/main.6ad83c79.js",
     "static/media/main-bg.jpg": "/e2i/static/media/main-bg.6ea39e1da38f249114ce.jpg",
     "static/media/bootstrap-icons.woff?": "/e2i/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
     "static/media/bootstrap-icons.woff2?": "/e2i/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
     "static/media/home-about.jpg": "/e2i/static/media/home-about.b44e480fe9a68dd0a19a.jpg",
     "static/media/tractor.png": "/e2i/static/media/tractor.3d93e244216b9f904291.png",
     "static/media/textile.png": "/e2i/static/media/textile.0df583b170733db00273.png",
+    "static/media/clock-svgrepo-com.png": "/e2i/static/media/clock-svgrepo-com.f1f32d97a567ffa8dcd3.png",
     "static/media/engineering.png": "/e2i/static/media/engineering.1595a02389221c6efe2d.png",
     "static/media/about-related.jpeg": "/e2i/static/media/about-related.a32dbe184c3c9166a61b.jpeg",
     "static/media/chemistry.png": "/e2i/static/media/chemistry.355f8cd23e3ee03638fb.png",
     "static/media/logo-trans-510x165-1.png": "/e2i/static/media/logo-trans-510x165-1.e916b3d533dffdaf8518.png",
+    "static/media/location-svgrepo-com.png": "/e2i/static/media/location-svgrepo-com.095ba94ca63b76a80f71.png",
     "static/media/factory.png": "/e2i/static/media/factory.4506f4465e5817dd8cf7.png",
+    "static/media/mail-svgrepo-com.png": "/e2i/static/media/mail-svgrepo-com.38dd2cc335ec8b5a5eb8.png",
     "static/media/target-1.jpg": "/e2i/static/media/target-1.e6722dfe56dfb0e5e573.jpg",
     "static/media/product-1.png": "/e2i/static/media/product-1.3c7d3933c18078acbb34.png",
+    "static/media/check-svgrepo-com.png": "/e2i/static/media/check-svgrepo-com.a25a669ad583a1da651a.png",
     "index.html": "/e2i/index.html",
     "static/media/Group 2.svg": "/e2i/static/media/Group 2.057d42e92da93842954102dc7fc253ad.svg",
     "static/media/Group 1.svg": "/e2i/static/media/Group 1.837df60cbde516fd9e6417e31b58d0ea.svg",
-    "main.7ac2d6bb.css.map": "/e2i/static/css/main.7ac2d6bb.css.map",
-    "main.2f4798b3.js.map": "/e2i/static/js/main.2f4798b3.js.map"
+    "main.6dcc0906.css.map": "/e2i/static/css/main.6dcc0906.css.map",
+    "main.6ad83c79.js.map": "/e2i/static/js/main.6ad83c79.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ac2d6bb.css",
-    "static/js/main.2f4798b3.js"
+    "static/css/main.6dcc0906.css",
+    "static/js/main.6ad83c79.js"
   ]
 }
