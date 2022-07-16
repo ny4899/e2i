@@ -27,7 +27,6 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "" : ""
                 }
-                onClick={navHideShow}
                 to="/"
               >
                 <img src={logo} alt="" />
@@ -120,7 +119,7 @@ function Navbar() {
               <i
                 id="humIcons"
                 onClick={navHideShow}
-                className="bi bi-list fs-2 fw-bolder"
+                className={` fw-bolder ${humShowHide ?"bi bi-x-lg fs-3":"bi bi-list fs-1"}`}
               ></i>
             </div>
           </div>

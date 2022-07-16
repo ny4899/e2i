@@ -4,7 +4,7 @@ import "./gallery.css"
 const GallerySection = () => {
   return (
     <>
-      <div className="py-5">
+      <div className="py-4 py-sm-5">
       <div className="container-xxl px-3 px-sm-4">
         <div className="row g-4">
           <div className="col-12 mb-3">
@@ -21,7 +21,7 @@ const GallerySection = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 my-4">
+          <div className="col-12 mb-4">
             <div className="d-flex align-items-center justify-content-center">
               <div className="d-flex align-items-center justify-content-center">
                 <a className="main__link mx-2 active" href="#">Sites</a>
