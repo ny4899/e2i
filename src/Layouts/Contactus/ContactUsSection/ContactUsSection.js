@@ -12,7 +12,7 @@ const ContactUsSection = () => {
 <div className="container-xxl px-3 px-sm-4 mb-5 mt-3 mt-sm-5 ">
       <div className="row">
         <div className="col-12 col-md-6 order-1 order-md-0">
-          <div className="row g-2 g-sm-3">
+          <form className="row g-2 g-sm-3">
             <div className='col-12 d-md-none'>
             <div className="d-flex align-items-center mt-4">
                 <h2 className="heading247">Have Any Query</h2>
@@ -63,7 +63,7 @@ const ContactUsSection = () => {
                   className="form-select mb-3"
                   aria-label="Default select example"
                 >
-                  <option >Products</option>
+                  <option value="Products" >Products</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
@@ -90,14 +90,14 @@ const ContactUsSection = () => {
             </div>
             <div className="col-12">
               <div>
-                <button type="submit" className="sumbit__btn">Submit</button>
+                <button onSubmit={()=>console.log("submiteded")} type="submit" className="sumbit__btn">Submit</button>
               </div>
             </div>
-          </div>
+          </form>
         </div>
         <div className="col-12 col-md-6">
-        <div class="bg-white p-3">
-          <div class="row g-2 g-sm-3">
+        <div className="bg-white p-3">
+          <div className="row g-2 g-sm-3">
             <div className="col-12 ">
               <div className="d-flex align-items-center mb-2">
                 <img src={clockSvg} style={{width: "60px"}} className="me-1 me-sm-3" alt="" />

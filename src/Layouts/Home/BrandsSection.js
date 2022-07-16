@@ -13,7 +13,7 @@ import jbr from "../../Assets/Images/brands/jbr.png"
 
 const BrandsSection = () => {
   return (
-    <div className="brands__container py-sm-5">
+    <div className="brands__container py-5">
     <div className="container-xxl px-3 px-sm-4">
       <div className="row d-flex align-items-center justify-content-center g-3 g-md-4">
         <div className="col-12 mb-3">

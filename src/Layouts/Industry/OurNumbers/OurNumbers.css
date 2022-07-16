@@ -1,0 +1,14 @@
+.ourNumber__card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: var(--white);
+  }
+  .ourNumber__card__txt{
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--green);
+  }

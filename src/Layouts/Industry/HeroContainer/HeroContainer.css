@@ -1,0 +1,24 @@
+.industry__hero__btn {
+    text-decoration: none;
+    padding: 3px 15px;
+    transition: all 0.3s;
+    font-weight: bolder;
+  }
+  .industry__hero__contact__btn {
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    color: var(--white);
+  }
+  .industry__hero__contact__btn:hover {
+    background-color: transparent;
+    color: var(--green);
+  }
+  .industry__hero__product__btn {
+    border: 2px solid var(--green);
+    color: var(--green);
+    margin-left: 10px;
+  }
+  .industry__hero__product__btn:hover {
+    background-color: var(--green);
+    color: var(--white);
+  }
