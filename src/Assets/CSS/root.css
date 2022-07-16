@@ -18,7 +18,13 @@
 a{
     color: var(--dark);
 }
+html{
+
+    width: 100% !important;
+}
 body {
+    width: 100% !important;
+    position: relative;
     font-family: 'Baloo Paaji 2', cursive;
     overflow-x: hidden !important;
     background-color: rgb(244, 253, 237);

@@ -7,6 +7,9 @@
   text-align: center;
   padding: 5px 0px;
 }
+.industries__container{
+  overflow-x: hidden;
+}
 .main__txt{
   background: -webkit-linear-gradient(45deg,#08a7cb, #78ffa8);
   -webkit-text-fill-color: transparent;
