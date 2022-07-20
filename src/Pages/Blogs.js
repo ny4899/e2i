@@ -1,10 +1,20 @@
 import React from 'react'
 
+import TopBlogs from '../Layouts/Blogs/TopBlogs/TopBlogs'
+import CategoryBlogSection from '../Layouts/Blogs/CategoryBlogSection/CategoryBlogSection'
+import InformationSection from '../Layouts/Home/InformationSection'
+
 const Blogs = () => {
   return (
-    <div>
-      <h1>Blogs</h1>
+    <>
+    <TopBlogs />
+    <div className='py-4'>
+    <CategoryBlogSection />
+    <CategoryBlogSection />
+    <CategoryBlogSection />
     </div>
+    <InformationSection />
+    </>
   )
 }
 

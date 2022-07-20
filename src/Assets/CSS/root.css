@@ -5,9 +5,11 @@
     --darkwhite: #dddddd;
     --green: #6ba229;
     --greendark: #497415;
+    --bodybg : rgb(244, 253, 237);
     /* ------------- */
-    --topnavHeight: 40px !important;
+    --topnavHeight: 40px;
     --mainnavHeight: 70px;
+    font-size: 18px !important;
 }
 * {
     margin: 0;
@@ -19,19 +21,16 @@ a{
     color: var(--dark);
 }
 html{
-
-    width: 100% !important;
+    scroll-behavior: smooth;
 }
 body {
-    width: 100% !important;
-    position: relative;
     font-family: 'Baloo Paaji 2', cursive;
-    overflow-x: hidden !important;
-    background-color: rgb(244, 253, 237);
+    overflow-x: hidden;
+    background-color: var(--bodybg);
 }
 @media only screen and (max-width: 768px) {
     :root{
         --topnavHeight: 30px;
-
+        font-size: 16px !important;
     }
 }
