@@ -4,7 +4,7 @@ import "./OurNumbers.css"
 const OurNumbers = () => {
   return (
     <div>
-      <div className="container-xxl px-3 px-sm-4 pb-5">
+      <div className="container-xxl px-3 px-sm-4 pt-sm-3  pb-5">
         <div className="row g-3 g-sm-4">
           <div className="col-6 col-sm-3">
             <div className="p-3 shadow  ourNumber__card py-4">

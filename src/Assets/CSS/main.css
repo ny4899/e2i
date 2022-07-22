@@ -74,7 +74,7 @@ font-family: 'Russo One', sans-serif !important;
 /* information container  */
 .information__container{
   background-color: rgb(235, 235, 235);
-  padding: 30px 0px;
+  /* padding: 30px 0px; */
 }
 .border__lines__rl{
   border-left: 1px solid var(--dark);

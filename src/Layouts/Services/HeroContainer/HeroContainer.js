@@ -3,7 +3,7 @@ import "./HeroContainer.css"
 const HeroContainer = () => {
   return (
     <div>
-    <div className="container-xxl px-3 px-sm-4 py-4">
+    <div className="container-xxl px-3 px-sm-4 pt-4">
       <div className="row">
         <div className="col-md-6">
           <div>

@@ -3,7 +3,7 @@ import aboutRelatedImg from "../../Assets/Images/about-page/about-related.jpeg"
 const HeroContainer = () => {
   return (
     <div>
-      <div className="container-xxl px-3 px-sm-4 py-4">
+      <div className="container-xxl px-3 px-sm-4 pt-4">
         <div
           className="d-flex align-items-center flex-column mx-auto"
           style={{ width: "100%", maxWidth: "900px" }}
@@ -26,7 +26,7 @@ const HeroContainer = () => {
               </div>
             </div>
             <p className="text-center fs-5">{"Envirozone Equipments & Instruments (E2I) is a group of innovative and experienced people who look towards wastewater in a different prospect and work relentlessly to offer specialized solutions with a solid optimism and positive approach. We are accepting challenging tasks every day and take them through offering high-quality, effective wastewater and water treatment solutions is our specialty."}</p>
-            <p className="text-center fs-5">{"It describes the processes and activities that need to take place to characterize and monitor the quality of the environmental monitoring system."}</p>
+            <p className="text-center fs-5 m-0">{"It describes the processes and activities that need to take place to characterize and monitor the quality of the environmental monitoring system."}</p>
         </div>
       </div>
     </div>

@@ -2,10 +2,10 @@ import React from 'react'
 import "./Teamsection.css"
 const TeamSection = () => {
   return (
-    <div>
-    <div className="container-xxl px-3 px-sm-4 mb-5">
+    <div className='mt-5'>
+    <div className="container-xxl px-3 px-sm-4">
       <div className="row  ">
-        <div className="col-12 col-md-6 ">
+        <div className="col-12 col-md-6">
           <div className="row g-0 h-100">
             <div className="col-6 h-100">
               <div className=" h-100" style={{backgroundColor: "var(--darkwhite)", minHeight:"300px"}}></div>

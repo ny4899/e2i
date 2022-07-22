@@ -9,7 +9,7 @@ const HeroContainer = () => {
     <>
       <div className="hero__container" style={{backgroundImage : `url(${heroBg})`}}>
         <div className="container-xxl px-3 px-sm-4">
-          <div className="">
+          <div>
             <div
               className="hero__content__container d-flex align-items-center flex-column mx-auto p-3 p-sm-4"
               style= {{width:"100%",maxWidth: "900px"}}
@@ -23,27 +23,27 @@ const HeroContainer = () => {
               </p>
               <div className="row g-2">
                 <div className="col-6 col-sm-3">
-                  <div className="bg__green h-100 p-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
+                  <div className="bg__green h-100 px-3 py-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
                     <p className="text-center m-0 fs-4 fw-bold">200+</p>
                     <p className="text-center m-0">Industries</p>
                   </div>
                 </div>
                 <div className="col-6 col-sm-3">
-                  <div className="bg__green h-100 p-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
+                  <div className="bg__green h-100 px-3 py-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
                     <p className="text-center m-0 fs-4 fw-bold">300+</p>
                     <p className="text-center m-0">Monitoring
                     <br /> Stations</p>
                   </div>
                 </div>
                 <div className="col-6 col-sm-3">
-                  <div className="bg__green h-100 p-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
+                  <div className="bg__green h-100 px-3 py-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
                     <p className="text-center m-0 fs-4 fw-bold">190+</p>
                     <p className="text-center m-0">Happy
                     <br /> Clients</p>
                   </div>
                 </div>
                 <div className="col-6 col-sm-3">
-                  <div className="bg__green h-100 p-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
+                  <div className="bg__green h-100 px-3 py-2 rounded-3 d-flex align-items-center justify-content-center flex-column">
                     <p className="text-center m-0 fs-4 fw-bold">300+</p>
                     <p className="text-center m-0">Projects</p>
                   </div>

@@ -4,7 +4,7 @@ import "./gallery.css"
 const GallerySection = () => {
   return (
     <>
-      <div className="py-4 py-sm-5">
+      <div className="mt-5">
       <div className="container-xxl px-3 px-sm-4">
         <div className="row g-4">
           <div className="col-12 mb-3">

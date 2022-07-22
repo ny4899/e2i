@@ -8,7 +8,7 @@ const Blogs = () => {
   return (
     <>
     <TopBlogs />
-    <div className='py-4'>
+    <div className='mt-5'>
     <CategoryBlogSection />
     <CategoryBlogSection />
     <CategoryBlogSection />

@@ -4,10 +4,10 @@ import "./knowourmerils.css"
 
 const KnowOurMerils = () => {
   return (
-    <div>
+    <div className='mt-5'>
     <div className="container-xxl px-3 px-sm-4 mb-5">
       <div className="row g-3">
-        <div className="col-12 mb-4">
+        <div className="col-12 mb-3">
           <div className="d-flex align-itmes-center justify-content-center">
             <h1 className="bottom__heading">Know our Merils</h1>
           </div>

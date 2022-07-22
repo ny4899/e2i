@@ -4,7 +4,7 @@ import "./ServicesSection.css"
 
 const ServicesSection = () => {
   return (
-    <div className="py-5">
+    <div className="mt-5">
       <div className="container-xxl px-3 px-sm-4 ">
         <div className="row g-3 g-sm-4">
           <div className="col-sm-6 col-md-4">

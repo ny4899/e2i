@@ -3,7 +3,7 @@ import target1 from "../../Assets/Images/home/target-1.jpg"
 
 const OurMissionSection = () => {
   return (
-    <div className="ourmission__container skew__nagitive my-5">
+    <div className="ourmission__container skew__nagitive mt-5">
     <div className="container-xxl px-3 px-sm-4 skew__positive">
       <div className="row g-3 g-sm-4">
         <div className="col-12 mb-3">

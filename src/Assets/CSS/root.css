@@ -9,7 +9,7 @@
     /* ------------- */
     --topnavHeight: 40px;
     --mainnavHeight: 70px;
-    font-size: 18px !important;
+    font-size: 16px;
 }
 * {
     margin: 0;
@@ -27,10 +27,4 @@ body {
     font-family: 'Baloo Paaji 2', cursive;
     overflow-x: hidden;
     background-color: var(--bodybg);
-}
-@media only screen and (max-width: 768px) {
-    :root{
-        --topnavHeight: 30px;
-        font-size: 16px !important;
-    }
 }

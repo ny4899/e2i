@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServicesHeadingSection = () => {
   return (
-    <div className="industries__container py-5 skew__nagitive" >
+    <div className="industries__container py-5 skew__nagitive mt-5" >
     <div className="container-xxl px-3 px-sm-4 skew__positive py-2">
       <div className="row g-5">
         <div className="col-12">
