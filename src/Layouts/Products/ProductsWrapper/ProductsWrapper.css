@@ -1,10 +1,17 @@
 .category___wrapper{
   background-color: var(--bodybg);
 }
+.category___container__wrapper{
+    overflow-x: scroll;
+}
+.category___container__wrapper::-webkit-scrollbar {
+    display: none !important;
+  }
 .category___container{
   display: flex;
-  height: var(--catogeryNavHeight);
-  overflow-x: scroll;
+  flex-wrap: wrap;
+  min-width: 500px;
+  padding: 5px 0px;
 }
 .category___container div{
   display: flex;
@@ -20,7 +27,7 @@
   background-color: transparent;
   border: 1px solid var(--darkwhite);
   border-radius: 20px;
-  margin-right: 10px;
+  margin: 5px 10px 5px 0px;
   width: max-content ;
   font-size: 14px;
   transition: all 0.3s;
@@ -28,9 +35,7 @@
 .category___container div a:hover{
   color: var(--green);
 }
-.category___container::-webkit-scrollbar {
-    display: none !important;
-  }
+
   
   .category__active a{
     background-color: var(--green) !important;

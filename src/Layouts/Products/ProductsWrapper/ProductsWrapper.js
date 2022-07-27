@@ -4,44 +4,37 @@ import "./ProductsWrapper.css"
 const ProductsWrapper = () => {
   return (
     <div>
-    <div className="container-xxl px-3 px-sm-4">
+    <div className="category___container__wrapper container-xxl px-3 px-sm-4">
+        <div className="category___container__wrapper">
       <div className="category___container">
         <div className="category__active">
           <a href="#">All</a>
         </div>
         <div>
-          <a href="#">Water Treatement</a>
+          <a href="#">Online Effluent Monitoring System</a>
         </div>
         <div>
-          <a href="#">Treatement Equipment</a>
+          <a href="#">Emission Monitoring System</a>
         </div>
         <div>
-          <a href="#">Water Equipment</a>
+          <a href="#">Waste Water Treatement System</a>
         </div>
         <div>
-          <a href="#">Water Equipment</a>
+          <a href="#">{"Water & WasteWater Equipments"}</a>
         </div>
         <div>
-          <a href="#">Water Equipment</a>
+        <a href="#">{"Water & WasteWater Chemicals"}</a>
         </div>
         <div>
-          <a href="#">Water Equipment</a>
+          <a href="#">Air Pollution Control System</a>
         </div>
         <div>
-          <a href="#">Water Equipment</a>
+          <a href="#">Reverse Osmosis Plant</a>
         </div>
         <div>
-          <a href="#">Water Equipment</a>
+          <a href="#">Wastewater Management</a>
         </div>
-        <div>
-          <a href="#">Water Equipment</a>
-        </div>
-        <div>
-          <a href="#">Water Equipment</a>
-        </div>
-        <div>
-          <a href="#">Water Equipment</a>
-        </div>
+      </div>
       </div>
     </div>
   </div>
