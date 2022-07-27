@@ -13,9 +13,8 @@ const AboutUsSection = () => {
         </div>
         <div className="col-12 col-md-6 mt-4 mt-md-0">
           <div className="d-flex align-itmes-center">
-            <h1 className="bottom__heading">About Us</h1>
+            <h1 className="leftAlign__bottomHeading__bar">About Us</h1>
           </div>
-
           <h2 className="mt-3">We Provide You</h2>
           <h2>Sustainable Future</h2>
           <p>

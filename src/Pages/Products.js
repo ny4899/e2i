@@ -1,10 +1,13 @@
 import React from 'react'
+import ProductsWrapper from '../Layouts/Products/ProductsWrapper/ProductsWrapper'
+import CategoryFilterNav from '../Layouts/Products/CategoryFilterNav/CategoryFilterNav'
 
 const Products = () => {
   return (
-    <div>
-      <h1>Products</h1>
-    </div>
+    <>
+    <ProductsWrapper />
+    <CategoryFilterNav />
+    </>
   )
 }
 

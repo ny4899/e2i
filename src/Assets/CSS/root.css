@@ -6,9 +6,11 @@
     --green: #6ba229;
     --greendark: #497415;
     --bodybg : rgb(244, 253, 237);
+    --cardImgBg : rgb(232, 255, 213);
     /* ------------- */
     --topnavHeight: 40px;
     --mainnavHeight: 70px;
+    --catogeryNavHeight : 50px ;
     font-size: 16px;
 }
 * {
