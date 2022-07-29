@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./ContactUsSection.css";
 import clockSvg from "../../../Assets/Images/contact-page/clock-svgrepo-com.png";
 import phoneSvg from "../../../Assets/Images/contact-page/mobile-svgrepo-com.png";
@@ -7,12 +7,44 @@ import locationSvg from "../../../Assets/Images/contact-page/location-svgrepo-co
 import checkSvg from "../../../Assets/Images/contact-page/check-svgrepo-com.png";
 import cancelSvg from "../../../Assets/Images/contact-page/cancel-svgrepo-com.png";
 
+
 const ContactUsSection = () => {
+  const userName = useRef();
+  const userEmail = useRef();
+  const userMobile = useRef();
+  const userProduct = useRef();
+  const userMessage = useRef();
+
+  const handleSubmit = async function (e) {
+    e.preventDefault();
+    const response = await fetch(
+      "https://envirozone-2a268-default-rtdb.firebaseio.com/userDataRecords.json",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          userName:  userName.current.value,
+          userEmail: userEmail.current.value,
+          userMobile: userMobile.current.value,
+          userProduct: userProduct.current.value,
+          userMessage: userMessage.current.value,
+        })
+      }
+    );
+    if(response){
+      alert("submited")
+    }else{
+      alert("somthing went wrong")
+    }
+  };
+
   return (
     <div className="container-xxl px-3 px-sm-4  mt-sm-4  mb-4">
       <div className="row">
         <div className="col-12 col-md-6 order-1 order-md-0">
-          <form className="row g-2 g-sm-3">
+          <form className="row g-2 g-sm-3" onSubmit={handleSubmit}>
             <div className="col-12 d-md-none">
               <div className="d-flex align-items-center mt-4">
                 <h2 className="heading247">Have Any Query</h2>
@@ -24,23 +56,12 @@ const ContactUsSection = () => {
                   {"Name (required)"}
                 </label>
                 <input
+                  required
                   type="text"
                   className="form-control"
                   id="nameInput"
                   placeholder="Enter your name ..."
-                />
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div>
-                <label htmlFor="emailInput" className="form-label fw-bold">
-                  {"Email (required)"}
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="emailInput"
-                  placeholder="Enter your email ..."
+                  ref={userName}
                 />
               </div>
             </div>
@@ -50,10 +71,27 @@ const ContactUsSection = () => {
                   {"Mobile (required)"}
                 </label>
                 <input
-                  type="number"
+                  required
+                  type="tel"
+                  pattern="[0-9]{10}"
                   className="form-control"
                   id="mobileInput"
-                  placeholder="Enter your mobile number ..."
+                  placeholder="Enter your 10 digit mobile number ..."
+                  ref={userMobile}
+                />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div>
+                <label htmlFor="emailInput" className="form-label fw-bold">
+                  {"Email (Optional)"}
+                </label>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="emailInput"
+                  placeholder="Enter your email ..."
+                  ref={userEmail}
                 />
               </div>
             </div>
@@ -63,17 +101,27 @@ const ContactUsSection = () => {
                   htmlFor="productSelectionInput"
                   className="form-label fw-bold"
                 >
-                  Select Product
+                 {" Select Product  (Optional)"}
                 </label>
                 <select
                   id="productSelectionInput"
                   className="form-select mb-3"
                   aria-label="Default select example"
+                  ref={userProduct}
                 >
-                  <option value="Products">Products</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option value="none">Product list</option>
+                  <option value="Wastewater treatment plant">
+                    Wastewater monitoring system
+                  </option>
+                  <option value="Air pollution monitoring system">
+                    Air pollution monitoring system
+                  </option>
+                  <option value="Emission monitoring syste">
+                    Emission monitoring system
+                  </option>
+                  <option value="Effluent monitoring syste">
+                    Effluent monitoring system
+                  </option>
                 </select>
               </div>
             </div>
@@ -87,6 +135,7 @@ const ContactUsSection = () => {
                   id="textareaInput"
                   placeholder="Drop your message"
                   rows="5"
+                  ref={userMessage}
                 ></textarea>
               </div>
             </div>
@@ -97,11 +146,7 @@ const ContactUsSection = () => {
             </div>
             <div className="col-12">
               <div>
-                <button
-                  onSubmit={() => console.log("submiteded")}
-                  type="submit"
-                  className="sumbit__btn"
-                >
+                <button type="submit" className="sumbit__btn">
                   Submit
                 </button>
               </div>

@@ -11,7 +11,7 @@ import Blogs from "./Pages/Blogs";
 import ContactUs from "./Pages/ContactUs";
 import NoPage from "./Pages/NoPage";
 import Footer from "./Routes/Footer";
-import ScrollToTop from "./Components/Scrolltotop";
+import ScrollToTop from "./Components/Common/Scrolltotop";
 
 const App = () => {
   return (

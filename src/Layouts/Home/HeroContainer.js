@@ -3,6 +3,7 @@ import React from "react";
 import heroBg from "../../Assets/Images/main-bg.jpg"
 
 //components
+import MainHeading from "../../Components/Common/MainHeading";
 
 const HeroContainer = () => {
   return (
